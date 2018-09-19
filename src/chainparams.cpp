@@ -152,7 +152,7 @@ public:
         //End generating genesis block/*/
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("000017e2f42ed4c8a960af6b10d39b6e42755b51be9dcced9df1cb0c8c9e13f"));
+        assert(hashGenesisBlock == uint256("0x00017e2f42ed4c8a960af6b10d39b6e42755b51be9dcced9df1cb0c8c9e13f"));
         assert(genesis.hashMerkleRoot == uint256("5fb3a3eeaa881884a90ae9369e6b8acfe2fd4fbc4847509a2992757daa13ea0e"));
 
         /*vSeeds.push_back(CDNSSeedData("80.211.202.181", "80.211.202.181"));         // Single node address
